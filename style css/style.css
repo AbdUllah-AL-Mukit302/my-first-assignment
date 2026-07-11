@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nav section starts */
+.nav-parent{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 15px;
+    max-width: 95%;
+    margin: auto;
+
+}
+/* button design */
+.common-button{
+ text-align: center;
+ background-color: blue;
+ color: white;
+ font-weight: 700;
+ font-size: 15px;
+ border-color: blue;
+ border-radius: 10px;
+ padding: 10px 20px;
+ cursor: pointer;
+}
+/* button hover */
+/* .common-button :hover{ */
+    /* background-color: rgb(205, 205, 224); */
+/* } */
+
+.anchor-flex{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+/* ul a uderline remove */
+ul a{
+    text-decoration: none;
+}
+/* ul li style remove */
+ul li{
+    list-style: none;
+}
+/* nav setion ended */
+
+/* hero banner section starts */
+/* Hero Banner */
+.banner{
+    background-image: url("./../images/banner.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* overlay */
+.overlay{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* content */
+.content{
+    max-width: 900px;
+    width: 80%;
+    text-align: center;
+}
+
+/* Heading */
+.content h1{
+    font-size: 72px;
+    font-weight: 800;   
+    color: white;
+    margin-bottom: 22px;
+    line-height: 1.2;
+}
+
+/* P tag design */
+.content p{
+    font-size: 22px;
+    color: white;     
+    line-height: 1.6;
+}
+
+/* the second button */
+.content .common-button{
+    margin-top: 300px;
+    padding: 15px 30px;
+    font-size: 20px;
+}
+/* speakers design */
+.speaker{
+    max-width: 1200px;
+    margin: 82px auto;
+}
+.speaker h2{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+ .spk-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    justify-content: center;
+ }
+
+ .spk-card img{
+    display: block;
+ }
+ 
+  .spk-card p{
+    color:gray;
+  }
+/* hero section endshere */
+
+/* price-card */
+.pricing{
+    max-width: 1200px;
+    margin: 90px auto;
+}
+.pricing h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 45px;
+}
+.parent-container-price{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.price-card{
+    width: 320px;
+    height: 500px;
+    padding: 30px;
+    border: 3px solid wheat;
+    border-radius: 15px;
+}
+.price-card h1{
+    font-size: 50px;
+    margin: auto;
+}
+.price-card h4{
+    color: gray;
+}
+.price-card p{
+    color: gray;
+    margin-bottom: 20px;
+}
+.price-card-pro{
+    background-color: black;
+    color: white;
+    width: 320px;
+    height: 500px;
+    padding: 30px;
+    border: 3px solid wheat;
+    border-radius: 15px;
+}
+.price-card-pro p{
+    color:#ddd
+}
+.price-card-pro h4{
+    color: rgb(164, 164, 233);
+}
+
+
+/* special list-item */
+.special-ul{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.special-ul li{
+    list-style: disc;
+    color: gray;
+}
+
+.special-ul li::marker{
+    color: blue;
+}
+
+/* price-button design */
+.price-card button,
+.price-card-pro button{
+    width: 100%;
+    padding: 14px;
+    margin-top: 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    /* margin-top: 170px; */
+} 
+.price-card button{
+    margin-top: 180px;
+}
+.price-card-pro button{
+    margin-top: 152px;
+    background-color: blue;
+}
+
+.early-bird{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    text-align: center;
+    color: gray;
+    font-weight: 700;
+    font-size: 24px;
+    /* margin: 0 auto; */
+    margin-bottom: 30px;
+}
+/* card-event */
+.event-schedule{
+    max-width: 1200px;
+    margin: 80px auto;
+    text-align: center;
+}
+.event-schedule p{
+    color: rgb(78, 78, 78);
+    margin-bottom: 30px;
+}
+.event-parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 35px;
+}
+.event-card{
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+/* footer */
+.footer{
+    background: #101727;
+    color: white;
+    padding: 20px 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link{
+    display: flex;
+    gap: 20px;
+}
+
+.link a{
+    color: white;
+    text-decoration: none;
+}
