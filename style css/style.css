@@ -202,8 +202,6 @@ ul li{
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    /* text-align: center; */
-    /* margin-top: 170px; */
 } 
 .price-card button{
     margin-top: 180px;
@@ -229,6 +227,7 @@ ul li{
     max-width: 1200px;
     margin: 80px auto;
     text-align: center;
+    margin-bottom: 50px;
 }
 .event-schedule p{
     color: rgb(78, 78, 78);
@@ -250,19 +249,31 @@ ul li{
 .footer{
     background: #101727;
     color: white;
-    padding: 20px 50px;
-
+    margin-top: 50px;
+    padding: 28px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+ 
+
+.footer-logo img{
+    width: 120px;
+    height: auto;
+}
+
 
 .link{
     display: flex;
     gap: 20px;
 }
-
-.link a{
-    color: white;
+ .link a{
+    list-style-type: none;
     text-decoration: none;
+    color: #ddd;
+    transition: .3s;
+ }
+ 
+.link a:hover{
+    color: #64a0ff;
 }
